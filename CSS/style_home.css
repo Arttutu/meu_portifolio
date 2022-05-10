@@ -1,0 +1,430 @@
+body{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+header{
+    background:linear-gradient(#888888,#fefefe);
+    padding:20px 0px;
+  
+}
+.caixa{
+
+    width: 940px;
+    margin: 0 auto;
+}
+
+.nome_titulo a{
+    text-decoration:none;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 22px;
+    color:#000000;
+    position: absolute;
+    top: 45px;
+    left:30px;
+    transition: 1s color;
+
+}
+.rede_social{
+    position: absolute;
+    top:15px;
+    right:50px;
+ 
+}
+nav{
+    position: absolute;
+    top: 45px;
+    right: 10px;
+}
+
+nav li{
+    display: inline;
+    margin-left: 10px;
+}
+nav a{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000000;
+    font-size: 22px;
+    text-decoration: none;
+    transition: 1s color;
+   
+}
+nav a:hover{
+    color: white;
+}
+ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.nome_titulo:hover a{
+    color: white;
+}
+.conteiner{
+    width: 940px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.titulo_principal{
+    padding-left: 50px;
+    padding-right: 30px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+   
+}
+
+.imagem_principal{
+    margin-right: 50px;
+    width: 30%;
+    height: 10%;
+    border: 2px solid #000000;
+    box-shadow: 10px 5px 30px 10px black, -10px -5px 30px 10px black;
+    
+}
+.imagem_principal:hover{
+    opacity: 70%;
+    transition: 500ms;
+}
+.conteudo_main{
+  background-color: #fefefe;
+}
+.conteudo{
+    text-align: center;
+    padding: 22px;
+    width: 940px;
+    margin: 0 auto;
+}
+.conteudo p{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 1em;
+}
+.titulos_secundario{
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+.conhecimentos_main{
+    background:linear-gradient(#FEFEFE,#888888);
+}
+.conhecimentos{
+    width: 940px;
+    margin: 0 auto;
+    
+}
+.conhecimentos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    margin: 0 1.5%;
+    box-sizing: border-box;  
+    margin-bottom: 4em;
+}
+.img{
+    width: 100px;
+}
+.titulo_conhecimento{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    padding-bottom: 2em;
+    font-weight: bolder;
+    transition: 1s font-size; 
+}
+#borda_logica{
+   border-top-width: 10px;
+}
+.descricao{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 2em;
+    transition: 1s font-size;
+}
+.conhecimentos li:hover h5{
+    font-size: 35px;
+}
+.descricao:hover{
+    font-size: 22px;
+}
+.projetos_main{
+    background:linear-gradient(#888888,#fefefe);
+}
+.curriculo_main{
+    background:linear-gradient(#fefefe, #888888);
+}
+.projetos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 60px 0px;
+}
+.projetos li{
+    display: inline-block;
+    text-align: center;
+    width: 40%;
+    margin: 0 4.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;  
+    vertical-align: center;
+    border: 3px solid white;
+    background-color: #cccccc;
+    border-radius: 10px;
+    color: black;
+    transition: 2s border;
+
+   
+}
+.titulo_principal{
+    padding-bottom: none;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+.img_portifolio{
+    width: 15px;
+}
+.projetos h2{
+    margin-bottom: 1em;
+    font-size: 30px;
+    font-weight: bold;
+    transition: 1s font-size;
+}
+.projetos li:hover{
+    border-color: darkorange;
+}
+.projetos li:active{
+    border-color: snow;
+    
+}
+.projetos li:hover h2{
+    font-size: 40px;
+    
+}
+
+.img_portifolio{
+    width: 45.5%;
+
+}
+.descricao{
+    font-size: 18px;
+    text-align: center;
+}
+.link {
+    text-decoration: none;
+    display: inline-block;
+    color:black;
+    font-weight: bold;
+    font-size:22px;
+    margin-top: 10px;
+    border: 2px solid #373737;
+    background-color:black;
+
+}
+.link{
+    text-decoration: none;
+    font-weight: bold;
+    font-size:22px;
+    margin-top: 10px;
+    border: 2px solid #373737;
+    background-color:black;
+    color: white;
+    width: 100%;
+
+}
+.curriculo{
+    width:940px ;
+    margin: 0 auto;
+  
+}
+.curriculo h1{
+    margin-bottom: 2em;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+.curriculo img{
+    display: inline-block;
+    width: 60%;
+    margin: 0px 20%;
+    margin-bottom: 50px;
+    border: 2px solid #888888;
+}
+.convidando{
+    font-weight:bold;
+    font-size: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+
+}
+.formulario_main{
+    background:linear-gradient(#888888,#fefefe);
+    
+}
+.formulario {
+    width: 940px;
+    margin: 0 auto;
+    
+}
+.rede_social_contato li{
+    display: inline-block;
+    padding: 20px;
+}
+
+form {
+    padding: 40px 0;
+}
+
+form label {
+    display:block;
+    padding-bottom: 10px;
+    font-weight:bold;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form input, textarea {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 100%;
+}
+.enviar{
+    background-color: #cccccc;
+    padding: 15px 0px;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+
+
+}
+.enviar:hover{
+    background: darkorange;
+    transform: scale(1.2);
+}
+
+footer{
+    text-align: center;
+    background-color: #000000;
+    width: 100%;
+    height: 100%;
+    padding:50px 0;
+    color:white;
+    }
+.ultimo_titulo{
+        padding-top: 20px;
+        font-size: 40px;
+        font-weight: bold;
+        color: white;
+
+}
+.direitos_autorais{
+    padding-top: 10px;
+    font-size: 13px;
+    color: white;
+        
+}
+
+
+.whats{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 9999;
+}
+@media screen and (max-width: 480px) {
+
+.caixa,.conteiner,.conhecimentos, .conteudo,.caixa,.projetos, .formulario,.curriculo{
+        width: 100%; 
+       
+}
+.nome_titulo a{
+    left: 10px;
+    margin-right: 40px;
+}
+.conteudo{
+    text-align: center;
+    width: 80%;
+}
+.conhecimentos li{
+    width: 100%;
+    text-align: center;
+    margin-right: 10px;
+}
+.descricao{
+    width: 80%;
+    margin: 0% 10%;
+
+    }
+
+.curriculo img{
+    width: 80%;
+    margin: 0% 10%;
+    margin-bottom: 2em;
+}
+nav {
+    right:10px;
+    
+}
+.rede_social{
+    right: 30px;
+}
+footer{
+    width: 100%;
+}
+form label{
+width: auto;
+padding-left: 10px;
+padding-bottom: 5px;
+
+}
+.curriculo img{
+width: 80%;
+margin: 0% 10%;
+margin-bottom: 2em;
+
+}
+form input, textarea {
+width: 70%;
+margin: 5% 5%;
+
+}
+
+.enviar{
+padding: 15px 15px;
+width: 90%;
+margin: 0 5%;
+
+}
+.convidando{
+width: 90%;
+text-align: center;
+}
+nav{
+right: 15px;
+}
+h1 a{
+position: relative;
+left:15px;
+}
+.nome_titulo a{
+left: 10px;
+margin-right: 40px;
+}
+.projetos li{
+text-align: center;
+margin-bottom: 1em;
+margin-top: 1em;
+width: 90%;
+margin: 5% 5%;
+}
+
+}
